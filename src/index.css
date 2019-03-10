@@ -1,0 +1,95 @@
+h1 {
+  font-size: 40px;
+  color:white;
+}
+
+h2 {
+  font-size: 18px;
+  color: #00343e;
+  padding-left: 13px;
+}
+
+h3 {
+  color:white;
+  font-size: 15px;
+}
+
+h4 {
+  font-size: 15px;
+ color: #008484;
+}
+
+p {
+  font-size: 14px;
+  color:white;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  opacity: 0.5;
+  color: #000;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.header {
+background-color:transparent;
+height: 100px;
+width: 270px;
+background-repeat: no-repeat;
+display:inline-block;
+margin: 0 auto;
+background-image: url("https://i.ibb.co/PWPMcjq/dnbeiendeomlogo.png");
+padding: 20px;
+}
+
+.box {
+  background-color: #008484;
+  color: white;
+  width: 380px;
+  padding: 5px 10px 5px 10px;
+  margin: 0 40px 5px 10px;
+}
+
+.smallBox {
+  background-color: #008484;
+  color: white;
+  width: 210px;
+  height: 120px;
+  padding: 10px;
+  text-align:center;
+  margin: 5px;
+}
+
+.boxes {
+  display:flex;
+  justify-content: flex-start;
+  background-color:transparent;
+  flex-direction: row;
+}
+
+.flex-container{
+  width: 420px;
+  background-color:#a5e1d2;
+  margin-left: 50px;
+  display: flex;
+  padding:20px;
+  justify-content: center;
+}
+
+.content {
+width: 420px;
+height:590px;
+background-color: transparent;
+}
+
+.main {
+  display: flex;
+  width: 420px;
+  flex-direction: column;
+  background-color: transparent;
+  font-family: 'Quicksand', sans-serif;
+}
